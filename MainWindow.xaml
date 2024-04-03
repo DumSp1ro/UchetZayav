@@ -1,0 +1,20 @@
+﻿<Window x:Class="UchetZayav.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UchetZayav"
+        mc:Ignorable="d"
+        Title="IT-Решения" MinHeight="450" MinWidth="1000" MaxHeight="450" MaxWidth="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Background="Silver"/>
+        <Image Source="/res/itlogo.png" Grid.Row="0" HorizontalAlignment="Left" Height="100" Width="100" />
+        <TextBlock FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"  FontFamily="Arial Black" Grid.Row="0">IT-Решения</TextBlock>
+        <Button Grid.Row="0" HorizontalAlignment="Right" Click="autorizacia" Width="110">Авторизация</Button>
+        <Frame Grid.Row="2" Name="MainFrame"></Frame>
+    </Grid>
+</Window>
