@@ -1,3 +1,5 @@
+[Доки](https://drive.google.com/drive/folders/1kLWrad3uwKqbWnmMX_pPkOUiWlnfoD0j?usp=sharing)
+
 # База ЮВ
 ![image](https://github.com/DumSp1ro/UchetZayav/assets/146105715/871495c0-8d6c-4b19-9575-6af2c3025cda)
 
